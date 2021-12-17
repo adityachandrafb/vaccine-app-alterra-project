@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.mainmenu-syarat {
+    background-image: url(./syarat-vaksin-bg.png);
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 35%;
+    padding: 20pt;
+    padding-bottom: 100pt;
+    min-height: 100vh;
+}
+.content{
+    margin: 20pt;
+    padding-right: 10pt;
+    min-height: 100%;
+}
+.h3 {
+    color: hsl(187, 92%, 36%);
+    font-size: 18pt;
+    font-weight: 600;
+    line-height: 3;
+    margin-left: 50px;
+}
+.h4 {
+    color: hsl(187, 92%, 36%);
+    font-size: 14pt;
+    font-weight: 500;
+    line-height: 2.5;
+    margin-left: 50px;
+}
+.next-button {
+    background-color: #079CB0;
+    border-radius: 12px;
+    color: white;
+    padding: 10px 100px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 30px;
+    outline: none;
+    display: inline-block;
+    border: none;
+}
+

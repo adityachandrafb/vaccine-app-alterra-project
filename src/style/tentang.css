@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.mainmenu-tentang {
+    background-image: url(./tentang-bg.png);
+    background-size: 450px 500px;
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: 100%;
+    padding: 20pt;
+    padding-bottom: 100pt;
+    min-height: 100vh;
+}
+.content-tentang{
+  margin: 20pt;
+  min-height: 100%;
+  margin-right: 40%;
+}
+.h5-tentang {
+  line-height: 2;
+  margin-bottom: 20pt
+}

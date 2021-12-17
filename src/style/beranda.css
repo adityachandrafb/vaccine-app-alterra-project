@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.mainmenu-home {
+  background-image: url(./beranda-bg.png);
+  background-size: 500px 500px;
+  background-repeat: no-repeat;
+  background-position: 100% 110%;
+  padding: 20pt;
+  padding-bottom: 100pt;
+  min-height: 100vh;
+}
+
+.content {
+  margin: 20pt;
+  padding-right: 10pt;
+  min-height: 100%;
+}
+
+.beranda-h1 {
+  color: #006D7C;
+  font-size: 35pt;
+  font-weight: 700;
+  text-decoration:none;
+  margin-top: 20pt;
+  margin-bottom:20pt;
+}
+.beranda-h3 {
+  color: #006d7c;
+  font-size: 18pt;
+  font-weight: 500;
+  margin-top: 70px;
+}
+.header {
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: grid;
+  grid-template-areas: "navbar profile";
+  grid-gap: 10pt;
+  padding: 20pt;
+}
+.submit-button {
+  margin: 20 pt;
+  background-color: #006D7C;
+  border-radius: 12px;
+  color: white;
+  padding: 10px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}

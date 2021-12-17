@@ -1,0 +1,64 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.mainmenu-syarat {
+    background-image: url(./syarat-vaksin-bg.png);
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 40%;
+    padding: 20pt;
+    padding-bottom: 100pt;
+    min-height: 100vh;
+}
+.content {
+    margin: 20pt;
+    padding-right: 10pt;
+    min-height: 100%;
+}
+.h2-usernotfound{
+    color: #006D7C;
+    font-size: 20pt;
+    font-weight: 600;
+    text-decoration:none;
+    margin-top: 50pt;
+    margin-bottom:50pt;
+    margin-left: 50pt;
+    margin-right: 50%;
+}
+.masuk-button {
+    margin-left: 50pt;
+    background-color: #006D7C;
+    border-radius: 12px;
+    color: white;
+    padding: 10px 90px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    outline: none;
+    border: none;
+}
+.daftar2-button {
+    margin-left: 30pt;
+    background-color: whitesmoke;
+    border-radius: 12px;
+    color: #006D7C;
+    padding: 10px 90px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+}

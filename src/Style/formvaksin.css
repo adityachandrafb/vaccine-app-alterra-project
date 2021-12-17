@@ -1,0 +1,229 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.mainmenu-form {
+  background-image: url(./syarat-vaksin-bg.png);
+  background-size: 400px 400px;
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 35%;
+  padding: 20pt;
+  padding-bottom: 100pt;
+  min-height: 100vh;
+  position: inherit;
+}
+.content {
+  margin: 20pt;
+  padding-right: 10pt;
+  min-height: 100%;
+}
+.h3 {
+  color: hsl(187, 92%, 36%);
+  font-size: 18pt;
+  font-weight: 600;
+  line-height: 3;
+  margin-left: 10%;
+}
+/* split content */
+.content .container-dual {
+  display: flex;
+  gap: 40pt;
+}
+/* content for profile */
+.content .profile {
+  min-width: 300pt;
+  max-width: 300pt;
+}
+.content .profile .property {
+  margin-bottom: 15pt;
+  text-align: left;
+}
+.content .profile .field {
+  font-size: 12pt;
+  min-width: 100pt;
+  max-width: 200pt;
+  text-align: left;
+  color: #079cb0;
+}
+.content .profile .value {
+  text-align: left;
+  font-size: 14pt;
+  min-width: 300pt;
+  font-weight: 500;
+  color: #006d7c;
+}
+/*select form */
+.content form {
+  width: 300pt;
+}
+.content form p {
+  color: #888888;
+  font-size: 12pt;
+  margin-bottom: 5pt;
+}
+.content form .dropdown {
+  max-width: 300pt;
+  min-width: 100pt;
+  border-radius: 10pt;
+  margin-bottom: 20pt;
+}
+.content form .kirikanan {
+  display: flex;
+  justify-content: space-between;
+}
+.content form .kirikanan .kiri {
+  min-width: 180pt;
+}
+.content form .kirikanan .kanan {
+  min-width: 100pt;
+}
+
+.content form .inputnumber:focus {
+  outline: 1pt solid #888888;
+}
+.content form .inputnumber {
+  min-width: 100pt;
+  border-radius: 5pt;
+  margin-bottom: 20pt;
+  min-height: 30pt;
+  padding-left: 10pt;
+  border: 1pt solid #b7b7b7;
+  font-size: 14pt;
+}
+/* content */
+
+.content .dialog-button {
+  display: flex;
+  gap: 10pt;
+}
+
+.content .add {
+  width: 150pt;
+  height: 35pt;
+  outline: none;
+  border: none;
+  background-color: #006d7c;
+  color: white;
+  font-weight: 500;
+  font-size: 14pt;
+  border-radius: 10pt;
+  cursor: pointer;
+  transition: 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .add:hover {
+  background-color: #079cb0;
+}
+
+.content .back {
+  width: 150pt;
+  height: 35pt;
+  outline: none;
+  border: 1pt solid #c9c9c9;
+  background-color: #ffffff;
+  color: #888888;
+  font-weight: 500;
+  font-size: 14pt;
+  border-radius: 10pt;
+  cursor: pointer;
+  transition: 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.back:hover {
+  border: 2pt solid #888888;
+  color: #888888;
+}
+
+.content button {
+  width: 300pt;
+  height: 35pt;
+  outline: none;
+  border: none;
+  background-color: #006d7c;
+  color: white;
+  font-weight: 500;
+  font-size: 14pt;
+  border-radius: 10pt;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-bottom: 20pt;
+}
+
+.content button:hover {
+  background-color: #079cb0;
+  color: white;
+  border: none;
+}
+.inputbox {
+  position: relative;
+}
+.login-form .inputbox input {
+  border: none;
+  padding: 5px 0;
+  outline: none;
+  width: 100%;
+  margin-bottom: 30pt;
+  background: transparent;
+  border-bottom: 1px solid #b7b7b7;
+  font-size: 14pt;
+}
+.login-form .inputbox label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 5px 0;
+  font-size: 14pt;
+  color: #b7b7b7;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.login-form .inputbox input:focus ~ label,
+.login-form .inputbox input:valid ~ label {
+  top: -15pt;
+  left: 0;
+  color: #006d7c;
+  font-size: 11pt;
+}
+.daftar1-button {
+  margin-left: 20pt;
+  background-color: #006D7C;
+  border-radius: 12px;
+  color: white;
+  padding: 10px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  outline: none;
+  border: none;
+}
+.back-button {
+  margin-left: 20pt;
+  background-color: whitesmoke;
+  border-radius: 12px;
+  color: #006D7C;
+  padding: 10px 90px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 500;
+  outline: none;
+  border: none;
+}

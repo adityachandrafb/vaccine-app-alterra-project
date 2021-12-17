@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* footer */
+/* .footer {
+    position: inherit;
+    left: 0;
+    bottom: 0;
+    width: 80pt;
+    text-align: center;
+  }
+  .footer img {
+    background-color: white;
+    padding: 5pt;
+    margin-left: 10pt;
+    height: 80pt;
+    position: ;
+  } */
+  /* footer */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 80pt;
+  height: 80pt;
+  text-align: center;
+  z-index: 33;
+}
+.footer img {
+  border-radius: 10pt 10pt 0pt 0pt;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+  padding: 5pt;
+  margin-left: 10pt;
+  width: 80pt;
+  height: 80pt;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
